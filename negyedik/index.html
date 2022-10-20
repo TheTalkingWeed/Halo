@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Negyedik ora</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <div class="feldadatok">
+        <div class="feladat">
+            <h1>4.1</h1>
+                <h2>A) Hálózat azonosító: 172.21.68.33 </h2>
+                <h2>B) Csomópontazonosító: 172.21.68.255 </h2>
+                <h2>C) Az IP cím osztálya: B</h2>
+                <h2>D) A címhez kapcsolt netmaszk /prefix és pontozott decimális formában:</h2>
+                <h2>Netmasz: 255.255.255.0</h2>
+                <h2>Prefix: 2001:0DB8:85A3::8A2E:0370:7334/64</h2>
+                <h2>Pontozott decimaális forma: FE80::5CFA:F6BB:BEFC:2BAC</h2>
+
+                <h1>4.2</h1>
+                <h2>A) A hálózatban kapott ip címek: </h2>
+                <img src="./assets/4.2.jpg" alt="">
+                <h2>B) az IP címet a netsh interface ipv4 set address name="interfész neve" static új_ipcím paranccsal lehet megváltozatni</h2>
+
+                <h1>4.3</h1>
+                <h2>A) Az első gép fizikai címe: 3C-A0-67-0A-FD-27</h2>
+                <h2>B) Ehez a fizikai címhez renden gyártó neve: Liteon Technology Corporation</h2>
+                <h2>C) Kapcsolat bontás után törlödik a cache, ujracsatlakozva betöltenek az entryk</h2>                
+                <h2>D) Új sort az: arp /s inetaddr etheraddr ifaceaddr paranccsal adunk meg</h2> 
+                <h2>E) Törölni egy bejegyzész az: arp /d inetaddr ifaceaddr</h2>     
+                
+                <h1>4.4</h1>
+                <h2>A)</h2>
+                <table>
+                    <tr>
+                      <th>  </th>
+                      <th>Forrás</th>
+                      <th>Cél</th>
+                    </tr>
+                    <tr>
+                        <td>IP</td>
+                        <td>172.21.71.56</td>
+                        <td>172.21.71.1</td>
+                    </tr>
+                    <tr>
+                        <td>MAC</td>
+                        <td>c8:09:a8:e2:32:36</td>
+                        <td>00:00:00:00:00:00</td>
+                    </tr>
+                    <tr>
+                      <td>IP</td>
+                      <td>172.21.71.1</td>
+                      <td>172.21.71.62</td>
+                    </tr>
+                    <tr>
+                      <td>MAC</td>
+                      <td>00:16:c8:96:ce:bf</td>  
+                      <td>00:00:00:00:00:00</td>  
+                    </tr>
+                    <tr>
+                      <td>IP</td>
+                      <td>172.21.71.20</td>
+                      <td>172.21.71.1</td>
+                    </tr>
+                    <tr>
+                      <td>MAC</td>
+                      <td>32:51:b3:3c:29:48</td>
+                      <td>00:00:00:00:00:00</td>
+                    </tr>
+                  </table>
+                <h2>B) A fizikai cím és az IP cím szerepe a hálózati kommunikációban</h2>
+                <h3>Fizikai cím szerepe</h3>
+                <p> Minden hálózati eszköz rendelkezik egy egyedi hálózati azonosítóval, ez az úgynevezett MAC (Media Access Control) cím. A MAC címet hálózati kártyák esetében gyakran a kártyán is megtaláljuk egy címkén, de könnyedén lekérhető parancssorból(Windows: ipconfig,Linux: ifconfig).</p>
+                <p> A mai napig használatos a hálózati forgalom szűrésére a MAC címek szűrése.</p>
+                <h3>IP cím szerepe: </h3>
+                <p> Az IP-cím egy egyedi cím, amely egy eszközt azonosít az interneten vagy a helyi hálózaton. Az IP az „Internet Protocol” rövidítése, amely az interneten vagy a helyi hálózaton keresztül küldött adatok formátumát szabályozó szabályok összessége.</p>
+        </div>
+    </div>
+</body>
+</html>

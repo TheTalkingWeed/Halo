@@ -1,0 +1,8 @@
+img{
+    width: 600px;
+}
+
+.imgcont{
+    display: flex;
+    flex-direction: column;
+}
