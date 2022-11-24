@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="kilenc.css">
+<title>kilenc</title>
+</head>
+<body>
+	<div class="container">
+		<h1>4.1.</h1>
+		<h2>A) Melyik NAT-típus használata a legtipikusabb otthoni környezetben?</h2>
+		<h3>dinamikus NAT</h3>
+		<h2>B) Mi a fő előnye a túlterheléses NAT alkalmazásának a klasszikus NAT-megoldásokkal szemben?</h2>
+		<h3>A legtöbb esetben az útválasztónak egy nyilvános IP-címe van hozzárendelve, ám a hálózat minden eszköze valószínűleg internet hozzáférést igényel. A NAT túlterhelés segítségével az útválasztó kapcsolatot létesít a nyilvános IP-címe és a szerver között. Ezután elküldi a csomagokat a szervernek, de hozzá is rendel egy visszatérési célportot.</h3>
+		<h3>Ez segítséget nyújt abban, hogy megtudja, mely csomagoknak szól a privát hálózat IP-címe. Véletlenszerűen ez a folyamat PAT része.</h3>
+		<h1>4.2.</h1>
+		<h2>A) Az „Oracle VirtualBox konfiguráció 1” esetén melyik berendezés végzi a címcsere funkciót?</h2>
+		<h3>NAT</h3>
+		<h2>B) A VM1 gépről küldött IP csomag esetén hányszor cserélődik a cím LAN, MAN, WAN szinten, ha a csomag az Internetbe jut el?</h2>
+		<h3>Lan szinten egyszer sem, MAN szinten 2-szer és WAN szinten egyszer.</h3>
+		<h1>4.3.</h1>
+		<h2>A) Milyen IP csomagazonosítóval kezdődik egy TCP kapcsolat felépítése?</h2>
+		<h3>forrás portszám és célportszám</h3>
+		<h2>B) Milyen IP csomagazonosítóval kezdődik egy UDP alapú forgalom?</h2>
+		<h3>forrás portszám és célportszám</h3>
+		<h1>4.4.</h1>
+		<h2>A) Hogyan lehetséges előállítani 40 bájtnál hosszabb fejrészű TCP szegmenst?</h2>
+		<h3>A tpc fejléc minimálisan 20 bájt, maximálisan 60 bájt.</h3>
+		<h2>Ha a fejléc hossza mező 10-es decimális értéket tartalmaz (ez 1010), akkor:</h2>
+		<h3>Fejléc hossza = 10 x 4 = 40 bájt</h3>
+	<h2>B) Melyik mezők tartoznak egy UDP szegmens pszeudó fejrészéhez?</h2>
+	<img src="./assets/sc.jpg" alt="">
+
+	</div>
+</body>
+</html>

@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<!-- <link rel="stylesheet" href="index.css"> -->
+<title>index</title>
+</head>
+<body>
+	<div class="container">
+
+		<h1>4.1</h1>
+		<h2>A) Hány darab ütközési és hány üzenetszórási tartományt talált?</h2>
+		<h3>6 ütközési tartomány és 3 üzenetszórási tartomány</h3>
+		<h2>B) Hogyan változnának meg a tartományok, ha a saját ábráján minden L2 kapcsolóeszközt L1
+			eszközre cserélne?</h2>
+		<h3>Az ütközési tartomány megnőne, és a kicserélt kapcsolóhoz több gép csatlakozna</h3>
+
+		<h1>4.2</h1>
+		<h2>A) Az IP cím beállítása után (ifconfig) a route tábla üres, vagy sem?</h2>
+		<h3>A felkonfigurált interfész hálózata megtalálható, az IP cím beállítása után</h3>
+		<h2>B) Miért nem elég a route tábla beállítása csak az egyik csomóponton?</h2>
+		<h3>Hogy felismerje egymást a két forgalomirányító</h3>
+		<h2>C) Megadható-e alapértelmezett átjárónak a 10.0.4.25/24 csomópont. Miért?</h2>
+		<h3>Nem mert nincs ilyen hálózat</h3>
+
+		<h1>4.3</h1>
+		<h2>A) Adja meg a kapott alhálózatokat netmaszkjukkal együtt.</h2>
+		<h3>12.165.124.0/24</h3>
+		<h3>NETMASZK: 255.255.255.224</h3>
+		<h3>Hálózatok: </h3>
+		<h3>12.165.124.0 – 12.165.124.31</h3>
+		<h3>12.165.124.32 - 12.165.124.63</h3>
+		<h3>12.165.124.64 - 12.165.124.95</h3>
+		<h3>12.165.124.96 - 12.165.124.127</h3>
+		<h3>12.165.124.128 - 12.165.124.159</h3>
+		<h3>12.165.124.160 - 12.165.124.161</h3>
+
+
+		<h2>B) Lehet-e a kapott hálózatokból az első 4-et valahogyan együtt hivatkozni? Ha igen,
+			hogyan?</h2>
+		<h3>Lehetséges, az IP címek előtagjait egy matematikai művelettel összevonjuk. Ezek egyfajta összevont útvonalak lesznek és a szuperhálózatoknál használjuk.</h3>
+	
+		<h1>4.4</h1>
+		<h2>A) Adja meg a kapott alhálózatokat netmaszkjukkal együtt.</h2>
+		<h3>78.99.0.0/16</h3>
+		<h3>78.99.0.0 – 78.99.31.255 MASZK: 255.255.224.0 (/19)</h3>
+		<h3>78.99.32.0 - 78.99.47.255 MASZK: 255.255.240.0 (/20)</h3>
+		<h3>78.99.48.0 – 78.99.55.255 MASZK: 255.255.248.0 (/21)</h3>
+		<h3>78.99.56.0 – 78.99.63.255 MASZK: 255.255.248 (/21)</h3>
+
+		<h2>B) Mi történik, ha az igények nagyobb időkülönbséggel érkeznek, azaz a felírás sorrendjében
+			kell kiosztani a hálózatokat?</h2>
+		<h3>Amíg egy hálózati címben van elég kiosztható cím, addig tudunk további új alhálózatokat létrehozni.</h3>
+		
+		<h2>C) Ezres pontossággal nagyjából hány kiosztható csomópont maradt összesen az kiinduló
+			hálózatból? </h2>
+		<h3>52 000</h3>
+		<h2>D) Mekkora a kiosztható legnagyobb hálózat a fennmaradó címekből?</h2>
+		<h3>32 768</h3>
+	
+	</div>
+</body>
+</html>

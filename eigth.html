@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="index.css">
+<title>index</title>
+</head>
+<body>
+	<div class="container">
+		<h1>4.1.</h1>
+		<h2>A) Hányas porto(ko)n kommunikál az FTP?
+		</h2>
+		<h3>20-as porton</h3>
+		
+		<h2>B) Melyik parancs segítségével tudunk konkrét szűrést végezni egy adott szolgáltatásnévvel kapcsolatosan?</h2>
+		<h3>net start ServiceName</h3>
+		<h1>4.2.</h1>
+		<h2>A) Hányféle Wireshark szűrő-típust ismer? Nevesítse őket!</h2>
+		<h3>capture - csomagelkapási</h3>
+		<h3>display - megjelenítési</h3>
+		<h2>B) Hogyan lehet Wireshark-kal grafikon-alapú statisztikai kimutatást végezni az elkapott csomagokra vonatkozóan?</h2>
+		<h3>Statistics: I/O graphs vagy flow graphs</h3>
+		<h1>4.3.</h1>
+		<h2>Hányféle rendszerállapotot tartalmaz a TCP-összeköttetést kezelő véges állapotú gép?</h2>
+		<h3>SYN SENT; ESTABLISHED; SYN RCVD;</h3>
+		<h2>B) Mi a különbség egy aktív és egy passzív TCP kapcsolatbontás között?</h2>
+		<h3>A passzív a tényleges virtuális kapcsolatig tétlenül várakozik, míg az aktívnál a két végponton működő TCP protokoll-gép felépíti a kapcsolatot.</h3>
+		<h1>4.4.</h1>
+		<h2>A) Használható-e a netstat parancs Windows környezetben?</h2>
+		<h3>Igen</h3>
+		<h2>B) Hogyan (milyen paranccsal és azon felül milyen módon) tudnánk meghatározni, hogy van-e aktív kommunikációs web-kapcsolatunk a 193.225.40.94 IP-címmel rendelkező géppel?</h2>
+		<h3>test-netconnection IPAddress -port 193.225.40.94</h3>
+
+		<h1>4.5.</h1>
+		<h2>A) Használható-e a netcat csevegő alkalmazás implementálására?</h2>
+		<h3>igen</h3>
+		<h2>B) Hogyan lehetne megakadályozni legegyszerűbben egy ilyen chat környezet futtatását?</h2>
+		<h3>Tűzfal segítségével.</h3>
+		<h1>4.6.</h1>
+		<h2>A) Történhet-e fájlmozgatás UDP felett?</h2>
+		<h3>igen</h3>
+		<h2>B) Netcat-alapú fájlátvitel esetén a szerver- vagy a kliens oldalt szükséges először implementálni? Válaszát indokolja!</h2>
+		<h3>Először a kliens, majd a szerver, mert a ellenkező esetben a kliensnek nem lesz mihez csatlakoznia.</h3>
+		<h1>4.7.</h1>
+		<h2>A) Melyik kapcsoló alkalmazásával állítható figyelő módba a szkennelt szerver oldal?</h2>
+		<h3>nc ↦ -I</h3>
+		<h2>B) Használható-e a netcat több, párhuzamosan megnyitott, port szkennelésére?</h2>
+		<h3>igen</h3>
+		<h1>4.8.</h1>
+		<h2>A) Használható-e az nmap port megnyitás céljára?</h2>
+		<h3>nem, csak ellenőrzésre</h3>
+		<h2>B) Hányas portok vannak nyitva a freemail.hu szerveren?</h2>
+		<h3>110</h3>
+
+
+	</div>
+</body>
+</html>
