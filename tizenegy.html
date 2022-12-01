@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="tizenegy.css">
+<title>tizenegy</title>
+<style>
+	table {
+	  font-family: arial, sans-serif;
+	  border-collapse: collapse;
+	  width: 50%;
+	}
+	
+	td, th {
+	  border: 1px solid #dddddd;
+	  text-align: left;
+	  padding: 8px;
+	}
+	
+	tr:nth-child(even) {
+	  background-color: #dddddd;
+	}
+	</style>
+</head>
+<body>
+	<div class="container">
+		<h1>4.1.</h1> 
+		<h2>A) Mi az FTP mechanizmus FTP, illetve FTP-DATA fogalma közötti különbség?</h2>
+		<h3>Az a kölönbség ,hogy az elsőnél csak egy soros parancsokat küldünk míg a másodiknál komplett adat szerkezeteket is át tudunk küldeni.</h3>
+		<h2>B) Milyen különbség van a Windows és a Knoppix flp kliensek parancsai között?</h2>
+
+		<table>
+			<tr>
+			  <th>Windows</th>
+			  <th>Linux</th> 
+			  <th>Leírás</th>
+			</tr>
+			<tr>
+			  <td>dir</td>
+			  <td>ls</td>
+			  <td>mappa listázás</td>
+			</tr>
+			<tr>
+			  <td>ren</td>
+			  <td>mv</td>
+			  <td>átnevezés</td>
+			</tr>
+			<tr>
+			  <td>copy</td>
+			  <td>cp</td>
+			  <td>másolás</td>
+			</tr>
+			<tr>
+			  <td>move</td>
+			  <td>mv</td>
+			  <td>áthelyezés</td>
+			</tr>
+			<tr>
+			  <td>cls</td>
+			  <td>clear</td>
+			  <td>parancssor törlése</td>
+			</tr>
+			<tr>
+			  <td>del</td>
+			  <td>rm</td>
+			  <td>fájl törlés</td>
+			</tr>
+			<tr>
+			  <td>time</td>
+			  <td>date</td>
+			  <td>idő kiírása</td>
+			</tr>
+			<tr>
+			  <td>md</td>
+			  <td>mkdir</td>
+			  <td>mappa létrehozása</td>
+			</tr>
+			<tr>
+			  <td>free</td>
+			  <td>mem</td>
+			  <td>szabad memória megjelenítése</td>
+			</tr>
+			<tr>
+			  <td>type</td>
+			  <td>cat</td>
+			  <td>fál tartalmának kiírása</td>
+			</tr>
+		  </table>
+		
+		  <h1>4.2.</h1>
+
+		<h1>A) Mi a sony.com, index.hu és az elte.hu tartományok SOA rekordja?</h1>
+		<table>
+			<tr>
+			  <th>Record</th>
+			  <th>Type</th> 
+			  <th>MNAME</th>
+			  <th>RNAME</th>
+			  <th>Serial</th>
+			  <th>Refresh</th>
+			  <th>Retry</th>
+			  <th>Expire</th>
+			  <th>TTL</th>
+			</tr>
+			<tr>
+			  <td>sony.com</td>
+			  <td>SOA</td>
+			  <td>pdns1.cscdns.net</td>
+			  <td>hostmaster.cscdns.net</td>
+			  <td>2011042224</td>
+			  <td>3600</td>
+			  <td>1800</td>
+			  <td>604800</td>
+			  <td>478</td>
+			</tr>
+			<tr>
+			  <td>index.hu</td>
+			  <td>SOA</td>
+			  <td>ns.index.hu</td>
+			  <td>support.mail.index.hu</td>
+			  <td>2019100095</td>
+			  <td>600</td>
+			  <td>300</td>
+			  <td>604800</td>
+			  <td>60</td>
+			</tr>
+			<tr>
+			  <td>elte.hu</td>
+			  <td>SOA</td>
+			  <td>darmol.elte.hu</td>
+			  <td>netadmin.noc.elte.hu</td>
+			  <td>2022111602</td>
+			  <td>900</td>
+			  <td>1800</td>
+			  <td>86400</td>
+			  <td>7200</td>
+			</tr>
+			
+			
+		  </table>
+		
+		  <h2>B) Volt-e iteratív lekérdezés? Mi lehet a magyarázat?</h2>
+		  <h3>Nem . Mert a szervertől nem kérdeztünk le közvetlen adatot</h3>
+		  <h1>4.3.</h1>
+		  <h2>A) Mi a DHCP szerver IP címe a laborgépek számára?</h2>
+		  <h3>172.22.214.3</h3>
+		  <h2>B) Kliens-szerver közt milyen típusú üzenetek zajlanak a folyamat során?</h2>
+		  <h3>Discover,offer,request,acknowledge</h3>
+		  <h1>4.4.</h1>
+		  <h2>A) Hogyan lehetséges meggyőződni arról, hogy probléma nélkül elértük az adatokat a szerverről?</h2>
+		  <h3>A  http get paranccsal.</h3>
+		  <h2>B) Mit tartalmaz a HTTP GET csomag? </h2>
+		  <h3>Adatokat egy bizonyos szerverről aminek megadtuk az url-jét</h3>
+
+	</div>
+</body>
+</html>
